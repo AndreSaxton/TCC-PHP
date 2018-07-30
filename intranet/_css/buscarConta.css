@@ -1,0 +1,16 @@
+#asideBuscarConta{ 
+			width:275px; 
+			height:225px;  
+			position:absolute; 
+			background-color: #777777;
+			padding: 15px;
+			padding-top: 5px;
+		}
+		#btn{
+			position: relative;
+			float: left;
+			margin: 2px;
+		}
+		section#iBuscarNomeConta, section#iBuscarPeriodoConta {
+			display: none;
+		}

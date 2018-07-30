@@ -1,0 +1,54 @@
+#direita{
+			position: relative;
+			color: black;
+			display: none;
+			float: right;
+			width: 65%;
+			height: calc(100% - 30px);
+			border-style: solid;
+			border-width: 2px 2px 2px 2px;
+			overflow:auto;
+			top: -130px;			
+		}
+		#busca{
+			position: absolute;
+			left: 150px;
+			top: 50px;
+			display:none;			
+		}
+		html, body {
+			border: 0px;
+			margin: 0px;
+			padding: 0px;
+			background-color: #eee;	
+			height: 100%;
+		}
+		#rodape{							
+			bottom: 0px;
+			height: 50px;
+			width: 100%;
+			position: fixed;
+			border: none;
+		}
+		#cabecalho{				
+				height: 50px;
+				overflow: hidden;
+				width: 100%;
+				transition: 1s;
+				z-index: 1;
+				position: absolute;
+				border: none;
+				top: 0px;
+				left: 0px;
+				background-color: #ccc;
+		}
+		#cabecalho:hover{				
+				height: 250px;
+		}
+		#meio{				
+			height: calc(100% - 100px);
+			width: 100%;
+			top: 50px;
+			position: relative;
+			border: none;			
+		}

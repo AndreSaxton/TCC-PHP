@@ -1,0 +1,24 @@
+#asideBuscarPessoa{ 
+			width:200px; 
+			height:240px;  
+			position:absolute; 
+			background-color: #777777;
+			padding: 15px;
+			padding-top: 5px;
+		}
+		aside #btn1{
+			position: absolute;
+			left: 5px;
+			bottom: 5px;
+		}
+		aside #btn2{
+			position: absolute;
+			left: 70px;
+			bottom: 5px;
+		}
+		section#iBuscarNome, section#iBuscarDocumento {
+			display: none;
+		}
+		#pDocumento{
+			margin-bottom: 0px;
+		}

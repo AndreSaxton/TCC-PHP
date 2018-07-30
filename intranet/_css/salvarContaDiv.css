@@ -1,0 +1,42 @@
+#btn{				
+			position: absolute;			
+			margin: 2px;
+			float: left;	
+			display: inline-block;
+			bottom: 0px;
+			width: 57px;
+		}
+		a#btn{		
+			left: 70px;
+		}
+		a#del{		
+			position: absolute;			
+			bottom: 0px;
+			left: 145px;
+		}
+		a{				
+			position: relative;			
+			margin: 2px;
+			float: right;	
+			display: inline-block;
+		}
+					
+		#formCadastro{
+			margin: 0px;
+			color: black;
+			display: block;
+			float: none;
+			overflow: hidden;
+			width: auto;
+			height: auto;
+		}
+		form p, input{
+			margin: 0px;
+			margin-bottom: 0px;
+		}
+		input{
+			width: 140px;
+		}
+		#iCheckPagamento{
+			width: 25px;
+		}
